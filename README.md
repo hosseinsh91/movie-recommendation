@@ -5,8 +5,8 @@ A **machine learning-based recommendation system** that suggests movies based on
 ## **📌 Features**
 ✅ Collaborative Filtering (User-Based & Item-Based)  
 ✅ Content-Based Filtering using movie metadata  
+✅ **Neural Collaborative Filtering (NCF)** for deep learning-based recommendations  
 ✅ Data visualization and insights on user ratings  
-✅ Implementation using Scikit-Learn & Surprise  
 
 ## **📌 Dataset**
 - `movies.csv` → Contains movie metadata (title, genres, etc.).
@@ -16,8 +16,8 @@ A **machine learning-based recommendation system** that suggests movies based on
 ### **Prerequisites**
 - Python 3.x
 - Jupyter Notebook
-- Pandas, NumPy, Matplotlib, Scikit-Learn, Surprise (for recommendation models)
+- Pandas, NumPy, Matplotlib, Scikit-Learn, TensorFlow/Keras (for NCF)
 
 Install dependencies:
 ```bash
-pip install numpy pandas matplotlib scikit-learn surprise
+pip install numpy pandas matplotlib scikit-learn tensorflow keras
